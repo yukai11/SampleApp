@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TextApp</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="text-msg">入力欄[???](半角)の部分を置き換え</div>
+    <p>例：[???]と[???]　⇨　犬と棒</p>
+    <textarea name="" id="text" cols="30" rows="10"></textarea>
+    <input type="button" onclick="OnButtonClick()" value="変換">
+    <div id="out">ここに変換された文字が表示されます。</div>
+
+
+    <div id="tweet-area"><!-- ここにボタンができる--></div>
+    <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
